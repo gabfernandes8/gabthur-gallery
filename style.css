@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    padding-left: 350px;
+    padding-right: 350px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Noticia Text', serif;
+    font-family: 'Questrial', sans-serif;
+}
+
+header{
+    display: grid;
+    background-color: tomato;
+}
+
+h1{
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+main{
+    background-color: violet;
+}
+
+footer{
+    background-color: turquoise;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao{
+    font-size: 1.3em;
+    align-items: center;
+    border-radius: 50px;
+    width: 260px;
+    height: 40px;
+    background-color: black;
+    display: grid;
+    align-content: center;
+    color: white;
+    justify-content: center;
+}
+
+.botao:hover{
+    transform: scale(1.1);
+    background-color: #f1f1f1;
+    color: black;
+    transition-duration: .3s;
+}
