@@ -151,33 +151,6 @@ footer{
     gap: 20px;
 }
 
-.botao{
-    grid-area: botao;
-    font-size: 1.3em;
-    align-items: center;
-    border-radius: 50px;
-    width: 260px;
-    height: 40px;
-    background-color: black;
-    display: grid;
-    align-content: center;
-    color: white;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.botao:hover{
-    transform: scale(1.1);
-    background-color: #f1f1f1;
-    color: black;
-    transition-duration: .3s;
-}
-
-.botao a{
-    color: white;
-    text-decoration: none;
-}
-
 .socials-container{
     grid-area: spotify;
     display: flex;
