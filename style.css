@@ -148,7 +148,7 @@ footer{
     justify-content: center;
     grid-template-areas:
         "spotify botao";
-        gap: 20px;
+    gap: 20px;
 }
 
 .botao{
@@ -171,6 +171,11 @@ footer{
     background-color: #f1f1f1;
     color: black;
     transition-duration: .3s;
+}
+
+.botao a{
+    color: white;
+    text-decoration: none;
 }
 
 .socials-container{
