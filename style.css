@@ -16,9 +16,11 @@ body{
     font-family: 'Amatic SC', cursive;
     font-family: 'Noticia Text', serif;
     font-family: 'Questrial', sans-serif;
-    background-image: url(./img/lover.jpg);
+    background: rgb(242,188,255);
+    background: linear-gradient(45deg, rgba(242,188,255,1) 10%, rgba(255,254,187,1) 25%, rgba(120,207,255,1) 42%, rgba(147,202,255,1) 52%, rgba(236,187,255,1) 60%, rgba(255,219,164,1) 74%, rgba(120,207,255,1) 92%);
+    /* background-image: url(./img/lover.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 header{
